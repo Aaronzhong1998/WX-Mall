@@ -4,18 +4,28 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
+		"coverView": true,
 		"autoAudits": false,
-		"coverView": true
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.10.3",
 	"appid": "wx53efced03f1c5d6e",
-	"projectname": "WXMall",
+	"projectname": "WX-Mall",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
@@ -36,8 +46,36 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 3,
+			"list": [
+				{
+					"id": -1,
+					"name": "详情页编译",
+					"pathName": "pages/detail/detail",
+					"query": "iid=1m7c6iu",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "分类编译",
+					"pathName": "pages/category/category",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的编译",
+					"pathName": "pages/profile/profile",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "购物车编译",
+					"pathName": "pages/cart/cart",
+					"scene": null
+				}
+			]
 		}
 	}
 }
